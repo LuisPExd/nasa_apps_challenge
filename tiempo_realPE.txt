@@ -1,0 +1,55 @@
+Se encontraron 11 estaciones con datos recientes:
+ - ID: 2277 | Nombre: CARABAYLLO
+   Coordenadas: -11.902194, -77.033639
+   Última medición: 2025-10-02 06:00:00
+   Hace 0 días
+
+ - ID: 2294 | Nombre: PUENTE PIEDRA
+   Coordenadas: -11.863253, -77.074133
+   Última medición: 2025-10-02 06:00:00
+   Hace 0 días
+
+ - ID: 2302 | Nombre: VILLA MARIA DEL TRIUNFO
+   Coordenadas: -12.166389, -76.92
+   Última medición: 2025-10-02 06:00:00
+   Hace 0 días
+
+ - ID: 2351 | Nombre: SAN MARTIN DE PORRES
+   Coordenadas: -12.008889, -77.084472
+   Última medición: 2025-10-02 06:00:00
+   Hace 0 días
+
+ - ID: 2397 | Nombre: SANTA ANITA
+   Coordenadas: -12.043022, -76.971444
+   Última medición: 2025-10-02 06:00:00
+   Hace 0 días
+
+ - ID: 2402 | Nombre: SAN BORJA
+   Coordenadas: -12.108872, -77.007689
+   Última medición: 2025-10-02 06:00:00
+   Hace 0 días
+
+ - ID: 2415 | Nombre: CAMPO DE MARTE
+   Coordenadas: -12.070544, -77.043214
+   Última medición: 2025-10-02 06:00:00
+   Hace 0 días
+
+ - ID: 7464 | Nombre: SAN JUAN DE LURIGANCHO
+   Coordenadas: -11.981636, -76.999247
+   Última medición: 2025-10-02 06:00:00
+   Hace 0 días
+
+ - ID: 270784 | Nombre: CERES (CRS)
+   Coordenadas: -12.028694, -76.927056
+   Última medición: 2025-10-02 06:00:00
+   Hace 0 días
+
+ - ID: 2143681 | Nombre: PARIACHI
+   Coordenadas: -12.002311, -76.838289
+   Última medición: 2025-10-02 06:00:00
+   Hace 0 días
+
+ - ID: 5250148 | Nombre: Quebrada Verde, Pachacamac
+   Coordenadas: -12.20869, -76.879894
+   Última medición: 2025-10-02 06:00:00
+   Hace 0 días

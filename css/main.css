@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* SECCIONES DE CONTENIDO BASE */
+.content-section {
+    padding: 80px 50px;
+    min-height: 100vh;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* PLACEHOLDERS BASE */
+.map-placeholder {
+    display: block;
+    min-height: 80vh;
+    text-align: left;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.loading-placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #666;
+    border-radius: 10px;
+    border: 2px dashed #ccc;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.loading-placeholder h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.loading-placeholder p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}

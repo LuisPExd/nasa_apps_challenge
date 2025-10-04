@@ -1,0 +1,63 @@
+/* CORE VALUES */
+.values-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.values-header {
+    margin-bottom: 40px;
+}
+
+.values-header h2 {
+    font-size: 3em;
+    color: #5cb85c;
+    margin-bottom: 10px;
+}
+
+.values-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.values-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 0;
+    max-width: 1200px;
+}
+
+.value-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-top: 5px solid #5cb85c;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.value-card h3 {
+    font-size: 1.5em;
+    color: #5cb85c;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.value-card h3 i {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.value-card p {
+    line-height: 1.5;
+    color: #555;
+}

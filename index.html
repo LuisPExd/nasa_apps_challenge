@@ -1,0 +1,136 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Space Apps Challenge: Cleaner, Safer Skies</title>
+    <!-- CSS Modular -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/charts.css">
+    <link rel="stylesheet" href="css/core-values.css">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/sdg.css">
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+</head>
+
+
+<body>
+
+    <header id="main-header" class="header-initial">
+        <nav class="nav-menu">
+            <a href="#hero-section" class="nav-link">HOME</a>
+                <a href="#charts-section" class="nav-link">CHARTS</a>
+            <a href="#map-section" class="nav-link">MAP</a>
+            <a href="#" class="nav-link">INDICATORS</a>
+            <a href="#" class="nav-link">PREDICTIONS</a>
+            <a href="#" class="nav-link">OTHERS CONSIDERATIONS</a>
+        </nav>
+    </header>
+
+    <section id="hero-section" class="full-screen-section overlay scroll-snap-start">
+        
+        <div id="carousel-container" class="carousel-container">
+            <div class="slide current-slide" data-index="0"></div>
+            <div class="slide" data-index="1"></div>
+            <div class="slide" data-index="2"></div>
+            <div class="slide" data-index="3"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="team-name">NOMBRE DE EQUIPO</h1>
+            <p class="team-description">hola, aquí iría la descripción</p>
+
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide-to="0"></span>
+                <span class="indicator" data-slide-to="1"></span>
+                <span class="indicator" data-slide-to="2"></span>
+                <span class="indicator" data-slide-to="3"></span>
+            </div>
+
+            <a href="#about-us-section" class="scroll-indicator" title="Scroll down">
+                <i class="material-icons scroll-arrow">keyboard_arrow_down</i>
+            </a>
+        </div>
+    </section>
+
+    <section id="about-us-section" class="content-section hidden scroll-snap-start">
+        <div id="about-content-placeholder" class="map-placeholder">
+            <h1>ABOUT US</h1>
+            <p>Cargando información del equipo...</p>
+        </div>
+    </section>
+
+    <section id="project-importance" class="content-section hidden scroll-snap-start"> 
+        <div class="importance-container">
+            <div class="importance-text">
+                <h2>Importance of our Project </h2>
+                <p>Air pollution has emerged as one of the most pressing global health threats of the 21st century, with
+                    the World Health Organization estimating that 99% of the world's population breathes air exceeding
+                    safe pollution limits (NASA, 2025). The consequences are not merely environmental but profoundly
+                    human, disproportionately affecting vulnerable populations such as children, the elderly, and
+                    individuals with pre-existing health conditions.</p>
+                <p>Our project addresses this challenge by providing a comprehensive forecasting tool that
+                    integrates satellite observations, ground-based sensors, and meteorological dynamics into a single,
+                    accessible platform. The significance lies in its ability to transform complex scientific data into
+                    actionable insights, enabling individuals, institutions, and policymakers to anticipate risks, reduce
+                    exposure, and adopt evidence-based strategies for safeguarding public health.</p>
+                <p>Beyond immediate health protection, our work contributes to long-term environmental awareness
+                    and resilience, fostering a culture of informed decision-making that bridges the gap between
+                    advanced space technology and everyday human wellbeing. By merging technological rigor with
+                    social responsibility, our project exemplifies how engineering innovation can actively shape
+                    healthier, more sustainable communities.</p>
+            </div>
+
+            <div class="importance-images">
+                <div class="image-stack">
+                    <img src="img/image1.png" alt="Earth Data Visualization 1" class="img-1">
+                    <img src="img/image2.png" alt="Earth Data Visualization 2" class="img-2">
+                    <img src="img/image3.png" alt="Earth Data Visualization 3" class="img-3">
+                    <img src="img/image4.png" alt="Earth Data Visualization 4" class="img-4">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="core-values-section" class="content-section hidden scroll-snap-start">
+        <div id="core-values-placeholder" class="map-placeholder">
+            <h1>OUR CORE VALUES</h1>
+            <p>Cargando los principios fundamentales...</p>
+        </div>
+    </section>
+    
+    <section id="sdg-alignment-section" class="content-section hidden scroll-snap-start">
+        <div id="sdg-content-placeholder" class="map-placeholder">
+            <h1>ODS ALIGNMENT</h1>
+            <p>Cargando alineación con Objetivos de Desarrollo Sostenible...</p>
+        </div>
+    </section>
+
+    
+    <section id="map-section" class="content-section hidden scroll-snap-start">
+        <div id="map-content-placeholder" class="loading-placeholder">
+            <h1>MAPA Y CAPAS CON INDICADORES</h1>
+            <p>Preparando el lienzo interactivo...</p>
+        </div>
+    </section>
+
+    <!-- Después de la sección del mapa -->
+    <section id="charts-section" class="content-section hidden scroll-snap-start">
+        <div id="charts-content-placeholder" class="loading-placeholder">
+            <h1>CHARTS & GRAPHS</h1>
+            <p>Cargando visualizaciones de datos...</p>
+        </div>
+    </section>
+
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
